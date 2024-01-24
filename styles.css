@@ -27,13 +27,24 @@ body{
 }
 
 .My-Picture {
-    ;
+    object-position: center;
     z-index: -1
 }
 .Bailey {
     color: blue
 }
 
+.About-Me-Button {
+    display:block;
+}
+
+.About-Me-Header {
+    text-align: center
+}
+
+.About-Me-Body {
+    text-align: center
+}
 .Skills-Button {
     display: block
 }
@@ -49,6 +60,7 @@ body{
 .Blurb {
     text-align: right;
     margin-right: 100px;
+    font-size: 25px
 }
 
 
