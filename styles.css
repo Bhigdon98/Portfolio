@@ -1,4 +1,4 @@
-body{
+.body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,6 +6,21 @@ body{
     background: white;
 }
 
+.Nav_Bar {
+    /*container*/
+    display:flex;
+    flex-direction: column;
+    /*Hide navbar by default*/
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out
+
+}
+
+/*target makes code active when target is selected*/
+.Nav_Bar:target {
+    max-height:100vh
+}
 .Nav-Background{
     position: fixed;
     top: 0;
@@ -26,9 +41,13 @@ body{
     z-index: -1;
 }
 
-.My-Picture {
+img{
+    text-align: center;
+    display:block;
+    margin:auto;
+    border-radius: 17%;
     object-position: center;
-    z-index: -1
+    z-index: -1;
 }
 .Bailey {
     color: blue
@@ -60,7 +79,8 @@ body{
 .Blurb {
     text-align: right;
     margin-right: 100px;
-    font-size: 25px
+    font-size: 17px;
+    font: trebuchet
 }
 
 
