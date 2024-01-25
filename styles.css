@@ -8,24 +8,33 @@
 
 .Nav_Bar {
     /*container*/
-    display: block;
+    display: flex;
     flex-direction: column;
-    width: 184px;
+    /* width: 184px; */
     /*Hide navbar by default*/
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    margin: 0;
-    padding: 0;
-    background-color: rgb(101, 93, 101)
+}
+
+.li a {
+    display:block;
+    color: 000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.li a:hover {
+    background-color: white;
+    color:black
 
 }
 
-.Nav_bar a {
-    display:block;
-    color:000;
-    padding: 8px 16px;
-    text-decoration: none;
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width: 200px;
 }
 
 /*target makes code active when target is selected*/
@@ -61,7 +70,7 @@ img{
     z-index: -1;
 }
 .Bailey {
-    color: blue
+    color: aquamarine
 }
 
 .About-Me-Button {
@@ -92,6 +101,22 @@ img{
     font-size: 17px;
     font: trebuchet;
     font: bold;
+}
+
+.Skills {
+    text-align: center;
+}
+
+.Projects {
+    text-align: Center;
+}
+
+.Contact {
+    text-align: center;
+}
+
+.Projects_Section {
+    text-align:Center
 }
 
 /* Pagination */
