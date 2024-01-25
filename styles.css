@@ -1,4 +1,4 @@
-body{
+.body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -6,6 +6,46 @@ body{
     background: white;
 }
 
+.navbar-button {
+    position:fixed;
+
+}
+.Nav_Bar {
+    position: fixed;
+    /*container*/
+    display: flex;
+    flex-direction: column;
+    /* width: 184px; */
+    /*Hide navbar by default*/
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+
+.li a {
+    display:block;
+    color: 000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.li a:hover {
+    background-color: white;
+    color:black
+
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width: 200px;
+}
+
+/*target makes code active when target is selected*/
+.Nav_Bar:target {
+    max-height:100vh
+}
 .Nav-Background{
     position: fixed;
     top: 0;
@@ -26,14 +66,35 @@ body{
     z-index: -1;
 }
 
-.My-Picture {
-    ;
-    z-index: -1
-}
-.Bailey {
-    color: blue
+img{
+    text-align: right;
+    display:block;
+    margin:auto;
+    border-radius: 17%;
+    object-position: right;
+    z-index: -1;
 }
 
+.House_Of_Horrors {
+    height: 175px;
+    width: 175px;
+    border-radius: 50%
+}
+.Bailey {
+    color: aquamarine
+}
+
+.About-Me-Button {
+    display:block;
+}
+
+.About-Me-Header {
+    text-align: center
+}
+
+.About-Me-Body {
+    text-align: center
+}
 .Skills-Button {
     display: block
 }
@@ -47,9 +108,30 @@ body{
 }
 
 .Blurb {
-    text-align: right;
-    margin-right: 100px;
+    text-align: center;
+    font-size: 17px;
+    font: trebuchet;
+    font: bold;
 }
+
+.Skills {
+    text-align: center;
+}
+
+.Projects {
+    text-align: Center;
+}
+
+.Contact {
+    text-align: center;
+}
+
+.Projects_Section {
+    text-align:Center
+}
+
+/* Pagination */
+
 
 
 /* .column-right {

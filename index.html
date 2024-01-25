@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" href="styles.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bailey Higdon Portfolio</title>
@@ -9,42 +10,56 @@
 <body>
     <div class="background"></div>
     <div class="Nav-Background"></div>
-    <div id="Nav_Bar">
-        <nav>
-            <h1 class="Bailey">Bailey Higdon</h1>
-            <h2 id="Title">Software Developer</h2>
-            <a href="#about-me-jump">About Me</a>
-            <a href="#skills-jump" class="Skills-Button">Skills</a>
-            <a href="#projects-jump" class="Projects-Button">Projects</a>
-            <a href="#contact-me-jump" class="Contact-Me-Button">Contact Me</a>
-            <a href="Resume" class="Resume-Button">Resume</a>
+    <div>
+        <h2 class="Bailey">Bailey Higdon</h2>
+            <h3 id="Title" Class="Title">Software Developer Apprentice</h3>
+        <a href="#navbar" class="navbar-button">Menu</a>
+        <nav id="navbar" class="Nav_Bar">
+            <ul>
+                <li><a href="#about-me-jump">About Me</a></li>
+                <li><a href="#skills-jump" class="Skills-Button">Skills</a></li>
+                <li><a href="#projects-jump" class="Projects-Button">Projects</a></li>
+                <li><a href="mailto: Higdon.T.Bailey@gmail.com" class="Contact-Me-Button">Contact Me</a></li>
+                <li><a href="https://docs.google.com/document/d/1N1d7N1f_uwRN9Jxp4lTTnuH2w01w_MdXzHGPbvlzgEQ/edit?usp=sharing" class="Resume-Button">Resume</a></li>
+            </ul>
+            
         </nav>
     </div>
 
     <div class="My-Picture">
-        <img src="images/Me.jpg" alt="">
+        <img src="images/Me.jpg" alt="My-Picture">
     </div>
 
     <div>
         <p class="Blurb">
-           My name is Bailey Higdon and I'm a Software Development Apprentice at BCCAGI. 
+           My name is Bailey Higdon and I'm a Software Development Apprentice at the Base Camp Coding Academy Graduate Institute. 
         </p>
     </div>
 
-    <div>
+    <div id="About-Me-Jump">
+        <h3 class="About-Me-Header">About Me</h3>
+        <p class="About-Me-Body">
+            I graduated from Water Valley High School and went right into the work force where I worked several jobs before
+            deciding to apply to Base Camp. <- This will be edited in the future
+        </p>
+    </div>
+    <div class="Skills_Section">
         <a id="skills-jump">
-            <p>Skills go here</p>
+            <p Class="Skills">Skills go here</p>
         </a>
     </div>
 
-    <div>
+    <div class="Projects_Section">
         <a id="projects-jump">
-            <p>Projects go here</p>
+            <p class="Projects">Projects go here</p>
+            <img class="House_Of_Horrors" src="images/HorrorMaze.png"></a>
+            <p href="https://replit.com/join/lpvqxlpevw-baileyhigdon1">Maze of Horrors</p>
+            <p>Languages: Python</p>
         </a>
     </div>
-    <div>
+    <div Class="Contact-Section">
         <a id="contact-me-jump">
-            <p>Contact Info Goes Here</p>
+            <p class="Contact">Contact Info Goes Here</p>
         </a>
     </div>
 </body>
