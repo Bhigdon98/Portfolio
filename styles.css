@@ -1,4 +1,5 @@
 .body{
+.body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -82,8 +83,20 @@ img{
 }
 .Bailey {
     color: aquamarine
+    color: aquamarine
 }
 
+.About-Me-Button {
+    display:block;
+}
+
+.About-Me-Header {
+    text-align: center
+}
+
+.About-Me-Body {
+    text-align: center
+}
 .About-Me-Button {
     display:block;
 }
@@ -124,7 +137,30 @@ img{
 
 .Contact {
     text-align: center;
+    text-align: center;
+    font-size: 17px;
+    font: trebuchet;
+    font: bold;
 }
+
+.Skills {
+    text-align: center;
+}
+
+.Projects {
+    text-align: Center;
+}
+
+.Contact {
+    text-align: center;
+}
+
+.Projects_Section {
+    text-align:Center
+}
+
+/* Pagination */
+
 
 .Projects_Section {
     text-align:Center
