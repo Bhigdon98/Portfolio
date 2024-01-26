@@ -7,20 +7,34 @@
 }
 
 .navbar-button {
-    position:fixed;
+    position:fixed
 
 }
+
+#checkBtn {
+    display:none;
+}
+
 .Nav_Bar {
+    display:none;
+}
+
+#checkBtn:checked ~ .Nav_Bar {
+    display: block;
+}
+
+label {
+    cursor: pointer;
+}
+
+/* .Nav_Bar {
     position: fixed;
-    /*container*/
     display: flex;
     flex-direction: column;
-    /* width: 184px; */
-    /*Hide navbar by default*/
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-}
+} */
 
 .li a {
     display:block;
@@ -44,7 +58,7 @@ ul {
 
 /*target makes code active when target is selected*/
 .Nav_Bar:target {
-    max-height:100vh
+    max-height:100vh;
 }
 .Nav-Background{
     position: fixed;
