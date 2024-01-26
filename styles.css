@@ -1,5 +1,4 @@
 .body{
-.body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -81,6 +80,11 @@ img{
     width: 175px;
     border-radius: 50%
 }
+
+.Horror {
+    height:150px;
+    width: 150px;
+}
 .Bailey {
     color: aquamarine
     color: aquamarine
@@ -154,13 +158,6 @@ img{
 .Contact {
     text-align: center;
 }
-
-.Projects_Section {
-    text-align:Center
-}
-
-/* Pagination */
-
 
 .Projects_Section {
     text-align:Center
