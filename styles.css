@@ -50,10 +50,10 @@ ul {
     position: fixed;
     top: 0;
     left: 0;
-    width: 15%;
+    width: 20%;
     height: 100%;
     background-color:rgb(101, 93, 101);
-    background: linear-gradient(to right, rgb(101, 93, 101) 45%, white 55%);
+    background: linear-gradient(to right, rgb(101, 93, 101) 10%, white 90%);
     z-index: -1;
 }
 
@@ -72,6 +72,7 @@ img{
     text-align: right;
     display:block;
     margin:auto;
+    margin-right: 450px;
     border-radius: 17%;
     object-position: right;
     z-index: -1;
