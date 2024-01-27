@@ -1,3 +1,7 @@
+* {
+    border: red dashed 1px;
+}
+
 .body{
     box-sizing: border-box;
     margin: 0;
@@ -13,7 +17,7 @@
 
 #checkBtn {
     display:none;
-    position:fixed;
+    position: fixed;
 }
 
 .Nav_Bar {
@@ -26,16 +30,14 @@
     background-color: white;
     list-style-type: none;
 
+
+}
+.checkBtn{
+    position: fixed;
 }
 
 label {
     cursor: pointer;
-}
-
-.Nav-Bar{
-    display: block;
-    background-color:white;
-    list-style-type: none;
 }
 
 /*target makes code active when target is selected*/
@@ -72,6 +74,15 @@ img{
     border-radius: 17%;
     object-position: right;
     z-index: -1;
+}
+
+.text-box{
+    text-align: center;
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
 }
 
 .projects_section {
@@ -170,13 +181,9 @@ img{
 
 }
 
-/* Pagination */
-
-
-
-/* .column-right {
-float: right;
-height: 400px;
-width: 200px;
-background-color: aquamarine
-} */
+#About-Me-Jump {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
