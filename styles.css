@@ -10,30 +10,35 @@
     background: white;
 }
 
+
 .navbar-button {
-    position:fixed
+    position:sticky
 
 }
 
 #checkBtn {
     display:none;
-    position: fixed;
+    position: relative;
 }
 
 .Nav_Bar {
     display:none;
+
+}
+
+#navbar {
+    position: relative;
 }
 
 #checkBtn:checked ~ .Nav_Bar {
     display: block;
     max-width:fit-content;
-    background-color: white;
     list-style-type: none;
-
-
+    position: relative;
 }
-.checkBtn{
-    position: fixed;
+
+.checkBtn {
+    position: relative;
 }
 
 label {
@@ -76,6 +81,15 @@ img{
     z-index: -1;
 }
 
+/* .text-box-wrapper{
+    text-align: center;
+    max-width: 60%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+} */
+
 .text-box{
     text-align: center;
     max-width: 60%;
@@ -111,9 +125,9 @@ img{
     text-align: center
 }
 
-.About-Me-Body {
+/* .About-Me-Body {
     text-align: center
-}
+} */
 .About-Me-Button {
     display:block;
 }
