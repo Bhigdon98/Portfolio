@@ -22,13 +22,17 @@
 
 #checkBtn:checked ~ .Nav_Bar {
     display: block;
+    max-width:fit-content;
+    background-color: white;
+    list-style-type: none;
+
 }
 
 label {
     cursor: pointer;
 }
 
-.Nav-Bar li a{
+.Nav-Bar{
     display: block;
     background-color:white;
     list-style-type: none;
@@ -162,9 +166,10 @@ img{
 }
 
 .Contact_Section {
-    text-align: center;
+    align-self: center;
 
 }
+
 /* Pagination */
 
 
