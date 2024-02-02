@@ -12,11 +12,13 @@
 .Bailey {
     color: rgb(2, 2, 2);
     text-align: right;
+    font-family: 'Oldenburg';
 }
 
 .Title {
     color: rgb(2, 2, 2);
     text-align: right;
+    font-family: 'Oldenburg';
 }
 
 .navbar-button {
@@ -34,22 +36,18 @@
 
 }
 
-.Nav_Buttons {
+.Nav_Buttons a {
     list-style-type: none;
-    display: column;
     margin: 0;
     background-color: rgb(101, 93, 101);
     padding: 20px;
     color:black;
+    height: fit-content;
     text-decoration:none;
-    width: fit-content;
+    width: 70px;
+    display: block;
 
-    /* list-style-type: none;
-margin: 0;
-padding: 0;
-display: block;
-width: fit-content;
-background-color: rgb(101, 93, 101) */
+
 
 }
 #navbar {
@@ -145,6 +143,7 @@ img{
 .Horror {
     height:150px;
     width: 150px;
+    align-items: right;
 }
 
 
