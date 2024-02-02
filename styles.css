@@ -28,7 +28,7 @@
 
 #checkBtn {
     display:none;
-    position: sticky; 
+    position: fixed; 
 }
 
 .Nav_Bar {
@@ -39,16 +39,12 @@
 .Nav_Buttons a {
     list-style-type: none;
     margin: 0;
-    background-color: rgb(101, 93, 101);
     padding: 20px;
     color:black;
     height: fit-content;
     text-decoration:none;
     width: 70px;
     display: block;
-
-
-
 }
 #navbar {
     position: sticky;
@@ -185,6 +181,16 @@ img{
     z-index: -1;
     height: 75px;
 }
+
+.HTML {
+    display:block;
+    margin:auto;
+    padding: 25px;
+    border-radius: 17%;
+    object-position: center;
+    z-index: -1;
+    height: 75px;
+}
 .Projects-Button {
     display: block
 }
@@ -218,8 +224,16 @@ img{
     text-align: center;
 }
 
+
+
 .Projects {
     text-align: Center;
+}
+
+
+
+.Projects_Section {
+    text-align:Center
 }
 
 .Contact {
@@ -230,26 +244,7 @@ img{
     font: bold;
 }
 
-.Projects {
-    text-align: Center;
-}
-
-.Contact {
-    text-align: center;
-}
-
-.Projects_Section {
-    text-align:Center
-}
-
 .Contact_Section {
     align-self: center;
 
-}
-
-#About-Me-Jump {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
