@@ -6,11 +6,18 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-family: 'Oldenburg'
+    font-family: 'Brush Script MT', cursive;
     background: white;
 }
+.Bailey {
+    color: rgb(2, 2, 2);
+    text-align: right;
+}
 
+.Title {
+    color: rgb(2, 2, 2);
+    text-align: right;
+}
 
 .navbar-button {
     position:sticky
@@ -19,7 +26,7 @@
 
 #checkBtn {
     display:none;
-    position: relative;
+    position: relative; 
 }
 
 .Nav_Bar {
@@ -27,14 +34,32 @@
 
 }
 
+.Nav_Buttons {
+    list-style-type: none;
+    display: column;
+    margin: 0;
+    background-color: rgb(101, 93, 101);
+    padding: 20px;
+    color:black;
+    text-decoration:none;
+    width: fit-content;
+
+    /* list-style-type: none;
+margin: 0;
+padding: 0;
+display: block;
+width: fit-content;
+background-color: rgb(101, 93, 101) */
+
+}
 #navbar {
     position: relative;
+    
 }
 
 #checkBtn:checked ~ .Nav_Bar {
     display: block;
     max-width:fit-content;
-    list-style-type: none;
     position: relative;
 }
 
@@ -72,6 +97,13 @@ label {
     z-index: -1;
 }
 
+.My-Picture {
+    display:block;
+    margin:auto;
+    border-radius: 17%;
+    object-position: center;
+    z-index: -1;
+}
 img{
     text-align: right;
     display:block;
@@ -97,7 +129,7 @@ img{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-self: center;
+    margin-left: 300px;
 }
 
 .projects_section {
@@ -114,10 +146,7 @@ img{
     height:150px;
     width: 150px;
 }
-.Bailey {
-    font-family: 'Oldenburg';
-    color: aquamarine
-}
+
 
 .About-Me-Button {
     display:block;
@@ -146,14 +175,31 @@ img{
     display: block
 }
 
+.Python {
+    display:block;
+    margin:auto;
+    border-radius: 17%;
+    object-position: center;
+    z-index: -1;
+    height: 75px;
+}
 .Projects-Button {
     display: block
 }
 
+.Contact_Me_Header {
+    text-align: center
+}
 .Contact-Me-Button {
     display: block
 }
 
+.Contact-List {
+    display: column;
+    padding: 0;
+    list-style-type: none;
+    
+}
 .Blurb {
     text-align: center;
     font-size: 17px;
@@ -175,15 +221,6 @@ img{
     font-size: 17px;
     font: trebuchet;
     font: bold;
-}
-
-.Skills {
-    text-align: center;
-}
-
-.Skills-Header {
-    font-family: 'Oldenburg';
-    text-align: center;
 }
 
 .Projects {
