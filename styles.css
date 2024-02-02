@@ -63,6 +63,8 @@
 
 .checkBtn {
     position: sticky;
+    font-family: 'Oldenburg';
+    font-size: 24px;
 }
 
 label {
