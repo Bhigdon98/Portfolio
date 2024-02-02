@@ -99,6 +99,7 @@ label {
     border-radius: 17%;
     object-position: center;
     z-index: -1;
+    box-shadow: aquamarine;
 }
 img{
     text-align: right;
@@ -126,6 +127,7 @@ img{
     justify-content: center;
     flex-direction: column;
     margin-left: 300px;
+    background-color:rgb(120, 94, 120)
 }
 
 .projects_section {
@@ -141,7 +143,7 @@ img{
 .House_Of_Horrors {
     height: 175px;
     width: 175px;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 .Horror {
@@ -172,6 +174,13 @@ img{
     font-family: 'Oldenburg';
     text-align: center;
     color: black;
+}
+
+.Skills-Box {
+    align-self: center;
+    width: fit-content;
+    background-color: rgb(120, 94, 120);
+    height: fit-content;
 }
 .Python {
     display:block;
