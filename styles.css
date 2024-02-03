@@ -9,16 +9,12 @@
     font-family: 'Brush Script MT', cursive;
     background: white;
 }
-.Bailey {
-    color: rgb(2, 2, 2);
-    text-align: right;
-    font-family: 'Oldenburg';
-}
 
-.Title {
+.header{
     color: rgb(2, 2, 2);
-    text-align: right;
+    align-content: right;
     font-family: 'Oldenburg';
+    text-align: right;
 }
 
 /*Navbar*/
@@ -85,6 +81,11 @@ label {
     z-index: -1;
 }
 
+.nav-container{
+    width:fit-content;
+    position: absolute;
+}
+
 /*body*/
 .background{
     position: fixed;
@@ -112,8 +113,15 @@ label {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 300px;
+    margin-left: 150px;
     background-color: #8faff2
+}
+
+.text-box-2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .picture-container{
@@ -172,19 +180,6 @@ label {
     border-radius: 50px;
 }
 
-/* img{
-    text-align: right;
-    padding: 1em;
-    display:block;
-    margin:auto;
-    height: 75%;
-    width: 75%;
-    margin-right: 450px;
-    border-radius: 17%;
-    object-position: right;
-    z-index: -1;
-} */
-
 /*Skills Section*/
 .Skills-Button {
     display: block
@@ -201,7 +196,10 @@ label {
 }
 
 .Skills-Box {
-    /* align-content: center; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    z-index: -1;
     width: fit-content;
     background-color: #8faff2;
     height: fit-content;
@@ -210,8 +208,7 @@ label {
     display:block;
     margin:auto;
     border-radius: 17%;
-    object-position: center;
-    z-index: -1;
+    z-index: 1;
     height: 75px;
 }
 
@@ -220,8 +217,7 @@ label {
     margin:auto;
     padding: 25px;
     border-radius: 17%;
-    object-position: center;
-    z-index: -1;
+    z-index: 1;
     height: 75px;
 }
 
