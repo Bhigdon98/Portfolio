@@ -113,7 +113,7 @@ label {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin-left: 150px;
+    margin: auto;
     background-color: #8faff2
 }
 
@@ -195,32 +195,28 @@ label {
     color: black;
 }
 
-.Skills-Box {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    z-index: -1;
-    width: fit-content;
-    background-color: #8faff2;
-    height: fit-content;
-}
-.python {
-    display:block;
-    margin:auto;
-    border-radius: 17%;
-    z-index: 1;
-    height: 75px;
+.Skills-Box{
+        z-index: -1;
+        width: 75%;
+        padding-bottom: 2em;
+        margin:auto;
+        background-color: #8faff2;
+        height: fit-content;
+        border-radius: 15%;
 }
 
-.HTML {
-    display:block;
-    margin:auto;
-    padding: 25px;
-    border-radius: 17%;
-    z-index: 1;
-    height: 75px;
+.python{
+    padding-top:2em;
+    height:15%;
+    width:15%;
+    padding-left: 2em;
 }
 
+.HTML{
+    height:25%;
+    width:25%;
+    padding-left:2em;
+}
 /*Contact Section*/
 .Contact_Me_Header {
     text-align: center
@@ -252,4 +248,37 @@ label {
 .Contact_Section {
     align-self: center;
 
+}
+
+
+@media (max-width: 1200px) {
+    .Skills-Box {
+        z-index: -1;
+        width: 75%;
+        padding-bottom: 2em;
+        margin:auto;
+        background-color: #8faff2;
+        height: fit-content;
+        border-radius: 15%;
+    
+    }
+    .python {
+        display:block;
+        margin:auto;
+        border-radius: 17%;
+        z-index: 1;
+        height: 6%;
+        width: 6%
+    }
+    
+    .HTML {
+        display:block;
+        margin:auto;
+        padding: 25px;
+        border-radius: 17%;
+        z-index: 1;
+        height: 15%;
+        width: 15%;
+    }
+    
 }
